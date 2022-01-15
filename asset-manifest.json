@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/quizzicalquiz/static/css/main.e1883257.chunk.css",
+    "main.js": "/quizzicalquiz/static/js/main.02ea0acc.chunk.js",
+    "main.js.map": "/quizzicalquiz/static/js/main.02ea0acc.chunk.js.map",
+    "runtime~main.js": "/quizzicalquiz/static/js/runtime~main.e9c9495f.js",
+    "runtime~main.js.map": "/quizzicalquiz/static/js/runtime~main.e9c9495f.js.map",
+    "static/js/2.a7f256fe.chunk.js": "/quizzicalquiz/static/js/2.a7f256fe.chunk.js",
+    "static/js/2.a7f256fe.chunk.js.map": "/quizzicalquiz/static/js/2.a7f256fe.chunk.js.map",
+    "index.html": "/quizzicalquiz/index.html",
+    "precache-manifest.d26af8cf8777faa209f94e3dfa717f06.js": "/quizzicalquiz/precache-manifest.d26af8cf8777faa209f94e3dfa717f06.js",
+    "service-worker.js": "/quizzicalquiz/service-worker.js",
+    "static/css/main.e1883257.chunk.css.map": "/quizzicalquiz/static/css/main.e1883257.chunk.css.map"
+  }
+}

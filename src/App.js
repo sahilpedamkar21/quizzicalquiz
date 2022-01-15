@@ -1,25 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from "react"
+import FirstPage from "./FirstPage"
+import SecondPage from "./SecondPage"
+export default function App(){
+    const [start, setstart] = React.useState(false)
+    function toggle(){
+        setstart(oldstart => !oldstart)
+        
+    }
+    return(<div>{start===true ? <SecondPage toggle={()=>toggle()}/> : <FirstPage toggle={()=>toggle()}/>}</div>)
+      
 }
-
-export default App;
